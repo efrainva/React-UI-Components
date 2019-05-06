@@ -1,0 +1,17 @@
+/* All styles for your header Components live here */
+
+#He{
+  flex-direction: row;
+}
+#face{
+  background-color :grey;
+  color: white;
+}
+
+p{
+  padding: 0px 20px;
+}
+.this{
+  width:100px;
+  height:100px;
+}
