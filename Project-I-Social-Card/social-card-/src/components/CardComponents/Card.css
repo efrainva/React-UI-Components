@@ -1,0 +1,26 @@
+/* All styles for your Card Components live here */
+
+div{
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+  width:575px;
+  height: 100%;
+}
+
+#ban{
+  flex-direction: row;
+}
+.fas{
+
+font-size: 100px;
+}
+img{
+  margin: 0 auto;
+  width:80%;
+  height:auto;
+}
+#top{
+  width:80%;
+  margin: 0 auto;
+}
