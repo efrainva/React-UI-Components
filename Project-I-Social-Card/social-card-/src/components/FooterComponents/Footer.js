@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <p>bot</p>
+    <p></p>
   );
 };
 
