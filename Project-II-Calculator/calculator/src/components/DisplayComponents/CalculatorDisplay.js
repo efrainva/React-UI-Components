@@ -5,7 +5,8 @@ import './Display.css';
 const Display = () => {
   return(
   <div>
-    0
+    <div>o</div>
+    <div>clear</div>
   </div>
   )
 }

@@ -2,35 +2,41 @@ import React from 'react';
 import './Button.css';
 
 //pre work// <props> //just testing props
-const work = props =>{
-  console.log(props);
+const Work = (props) =>{
   return (
-    <button>
-      {props.ob.zero}
-    </button>
+    <div>
+    <button>{props.numbers.zero}</button>
+    <button>{props.numbers.one}</button>
+    <button>{props.numbers.two}</button>
+    <button>{props.numbers.three}</button>
+    <button>{props.numbers.four}</button>
+    <button>{props.numbers.five}</button>
+    <button>{props.numbers.six}</button>
+    <button>{props.numbers.seven}</button>
+    <button>{props.numbers.eight}</button>
+    <button>{props.numbers.nine}</button>
+    </div>
   )
 }
 
 const Button = () => {
-    const ob = {
-      zero:0,
-      one:1,
-      two:2,
-      three:3,
-      four:4,
-      five:5,
-      six:6,
-      seven:7,
-      eight:8,
-      nine:9
-    };
+  const ob = {
+    zero:0,
+    one:1,
+    two:2,
+    three:3,
+    four:4,
+    five:5,
+    six:6,
+    seven:7,
+    eight:8,
+    nine:9
+  };
 
-
-    return(
-    <div className = "But">
-      <button>0</button>
-      <work ob={ob}/>
-    </div>
+  return(
+  <div className="But">
+    <Work numbers={ob}/>
+  </div>
   )
 }
 
